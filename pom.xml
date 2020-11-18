@@ -14,7 +14,7 @@
     <name>Data Logger - BOM</name>
     <groupId>net.wutoso</groupId>
     <artifactId>data-logger-bom</artifactId>
-    <version>1.2</version>
+    <version>1.0</version>
 
     <packaging>pom</packaging>
 
