@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Data Logger - BOM</name>
+    <name>Master BOM</name>
     <groupId>net.wutoso</groupId>
-    <artifactId>data-logger-bom</artifactId>
+    <artifactId>myhome-bom</artifactId>
     <version>1.0</version>
 
     <packaging>pom</packaging>
@@ -28,6 +28,14 @@
             <organization>wutoso</organization>
         </developer>
     </developers>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>myhome-bom</name>
+            <url>https://maven.pkg.github.com/wutoso/myhome-bom</url>
+        </repository>
+    </distributionManagement>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
