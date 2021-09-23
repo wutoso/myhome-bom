@@ -7,7 +7,7 @@
     <name>Master BOM</name>
     <groupId>net.wutoso</groupId>
     <artifactId>myhome-bom</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
 
     <packaging>pom</packaging>
 
@@ -28,13 +28,6 @@
             <organization>wutoso</organization>
         </developer>
     </developers>
-
-    <repositories>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/wutoso/*</url>
-        </repository>
-    </repositories>
 
     <distributionManagement>
         <repository>
