@@ -7,7 +7,7 @@
     <name>Master BOM</name>
     <groupId>net.wutoso</groupId>
     <artifactId>myhome-bom</artifactId>
-    <version>1.2</version>
+    <version>1.0</version>
 
     <packaging>pom</packaging>
 
