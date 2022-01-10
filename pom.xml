@@ -52,7 +52,7 @@
 
         <java-jwt.version>3.18.2</java-jwt.version>
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
-        <spring-cloud.version>2020.0.2</spring-cloud.version>
+        <spring-cloud.version>2021.0.0</spring-cloud.version>
         <docker.image.prefix>${project.organization.name}</docker.image.prefix>
         <docker.image.name>${project.artifactId}</docker.image.name>
     </properties>
